@@ -1,0 +1,33 @@
+@media (min-width: 1200px) {
+  .productTile {
+    min-height: 540px;
+  }
+
+  .productTile--carousel {
+    min-height: 580px;
+  }
+
+  .productTile--searchResult .productTileText {
+    width: 62%;
+  }
+
+  .hu .productTile--searchResult .productTileText {
+    width: 55%;
+  }
+
+  .cz .productTile--searchResult .productTileText {
+    width: 50%;
+  }
+
+  .ch .productTile--searchResult .productTileText {
+    width: 53%;
+  }
+
+  .bisncontainer__content {
+    gap: 260px;
+  }
+
+  .bisncontainer__productdesc {
+    width: 30%;
+  }
+}

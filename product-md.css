@@ -1,0 +1,103 @@
+@media (min-width: 768px) {
+  .productTile__textAndPrice:not(.searchCarousel .productTile__textAndPrice) {
+    margin-top: 16px;
+  }
+
+  .productTile__badges {
+    max-width: 203px;
+  }
+
+  .productTile__button--wishlist {
+    height: 30px;
+    width: 30px;
+  }
+
+  .productTile__price--rrp {
+    line-height: 18px;
+  }
+
+  .productTile__memberPrice {
+    font-size: 18px;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .productTile__additionalInfo--list li,
+  .productTile__discountInfo,
+  .productTile__memberPrice__memberPriceValue--member {
+    font-size: 18px;
+  }
+
+  .productTile.productTile--searchResult .productTile__textAndPrice {
+    margin-top: 10px;
+  }
+
+  .productTile--plp .productTile__price {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .productTile--plp .carousel__item {
+    margin-right: 0;
+  }
+
+  .productTile--searchResult .productTileText {
+    width: 47%;
+  }
+
+  .hu .productTile--searchResult .productTileText {
+    width: 66%;
+  }
+
+  .cz .productTile--searchResult .productTileText {
+    width: 59%;
+  }
+
+  .ch .productTile--searchResult .productTileText {
+    width: 60%;
+  }
+
+  .pd__body--16 .pd__headline span {
+    display: inline;
+  }
+
+  .search-title {
+    display: inherit;
+  }
+
+  .search-form {
+    padding-bottom: 40px;
+    position: static;
+  }
+
+  .search-recommended {
+    width: 100%;
+  }
+
+  .search-recommendations-section {
+    flex-flow: row;
+    width: 90%;
+  }
+
+  .search-recommendations__title {
+    margin-bottom: 35px;
+  }
+
+  .search-recommendations__list {
+    margin-right: 50px;
+  }
+
+  .search-suggestions {
+    margin-bottom: 100px;
+  }
+
+  .search-suggestions .search-recommendations__title {
+    margin-bottom: 10px;
+  }
+
+  #searchflyout {
+    padding-bottom: 0;
+    padding-top: 10px;
+    width: 80%;
+  }
+}

@@ -1,0 +1,46 @@
+@media (min-width: 576px) {
+  .productTile__prices {
+    flex-wrap: nowrap;
+  }
+
+  .productTile.productTile--searchResult {
+    width: 340px;
+  }
+
+  .productTile--searchResult .productTileText {
+    width: 59%;
+  }
+
+  .hu .productTile--searchResult .productTileText {
+    width: 65%;
+  }
+
+  .ch .productTile--searchResult .productTileText,
+  .cz .productTile--searchResult .productTileText {
+    width: 60%;
+  }
+
+  .suggestedItemsOverview__prices {
+    gap: 10px;
+  }
+
+  .pdp__pricesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .pdp__bv[\:has\(\.bv_main_container\[itemprop\%3DaggregateRating\]\)] {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .pdp__bv:has(.bv_main_container[itemprop="aggregateRating"]) {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: auto;
+  }
+}

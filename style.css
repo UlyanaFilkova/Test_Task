@@ -1,0 +1,27 @@
+.standardprice--value {
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.productinformation .icon {
+  width: 20px;
+}
+
+.productinformation {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+}
+
+.productinformation .productinformation-name-price {
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: [name] 65% [price] 25%;
+}
+
+.productinformation .productinformation-name-price .name {
+  grid-column: name;
+}
+
+.productinformation .productinformation-name-price .price {
+  grid-column: price;
+}
