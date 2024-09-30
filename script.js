@@ -45,6 +45,7 @@ images.forEach((image) => {
   });
 });
 
+
 // список  информации об одежде
 const accordionItems = document.querySelectorAll(".customAccordion__item");
 
@@ -107,11 +108,16 @@ wishlistButton.addEventListener("click", () => {
   const addText = wishlistButton.querySelector(".wishlistText--add");
   const removeText = wishlistButton.querySelector(".wishlistText--remove");
 
-  if (addText.style.display === "none") {
-    addText.style.display = "block";
-    removeText.style.display = "none";
+  if (window.innerWidth > 991) {
+    if (addText.style.display === "none") {
+      addText.style.display = "block";
+      removeText.style.display = "none";
+    } else {
+      addText.style.display = "none";
+      removeText.style.display = "block";
+    }
   } else {
+    removeText.style.display = "none";
     addText.style.display = "none";
-    removeText.style.display = "block";
   }
 });

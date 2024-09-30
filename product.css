@@ -1358,7 +1358,8 @@
 .pdp__wishlist {
   background-color: #0000;
   border: 1px solid #000;
-  bottom: 70px;
+  /* bottom: 70px; */
+  bottom: 0;
   color: #000;
   flex: 1 1 0;
   font-size: 24px;
@@ -1383,7 +1384,8 @@
 }
 
 .pdp__addToCart {
-  bottom: 70px;
+  /* bottom: 70px; */
+  bottom: 0;
   flex: 1 0 100%;
   left: 0;
   padding: 15px;
