@@ -7330,9 +7330,9 @@ img {
   display: block !important;
 }
 
-.cl2--only {
+/* .cl2--only {
   display: none !important;
-}
+} */
 
 .cl2 .cl2--only {
   display: block !important;

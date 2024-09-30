@@ -25,3 +25,27 @@
 .productinformation .productinformation-name-price .price {
   grid-column: price;
 }
+
+.zoomed {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+.paypal{
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.3;
+  color: #2c2e2f;
+  cursor: pointer;
+}
+
+.paypal-link{
+  color: #0070ba;
+  font-weight: 500;
+  
+}
+
+.paypal-svgs{
+  display: inline-flex;
+  align-items: start;
+}
